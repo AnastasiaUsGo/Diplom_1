@@ -14,7 +14,7 @@ public class IngredientTypeTest {
     }
 
     @Test
-    public void enumContainsSauce() {
+    public void enumContainsSauceTest() {
         String expected = "SAUCE";
         String actual = IngredientType.valueOf("SAUCE").toString();
         assertEquals(expected, actual);
@@ -22,7 +22,7 @@ public class IngredientTypeTest {
     }
 
     @Test
-    public void enumContainsFilling() {
+    public void enumContainsFillingTest() {
         String expected = "FILLING";
         String actual = IngredientType.valueOf("FILLING").toString();
         assertEquals(expected, actual);
